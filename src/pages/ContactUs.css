@@ -1,0 +1,33 @@
+/* src/pages/ContactUs.css */
+.contact-form {
+  padding: 50px 20px;
+}
+
+.contact-form h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group label {
+  font-weight: bold;
+}
+
+.contact-form .form-group .required {
+  color: red;
+}
+
+.contact-form .form-control {
+  border-radius: 0;
+  border: 2px solid #6cb5c5;
+}
+
+.contact-form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0;
+  padding: 10px 20px;
+}
