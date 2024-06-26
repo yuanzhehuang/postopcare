@@ -1,0 +1,23 @@
+/* src/components/NavigationBar.css */
+.nav-link {
+    color: #fff !important;
+    font-size: 1.1em;
+    padding: 8px 20px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline !important;
+  }
+  
+  .nav-link.active {
+    text-decoration: underline !important;
+  }
+  
+  .navbar {
+    background-color: #6cb5c5 !important;
+  }
+  
+  .navbar-brand {
+    color: #fff !important;
+  }
+  
