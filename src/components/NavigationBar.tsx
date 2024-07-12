@@ -1,4 +1,3 @@
-// src/components/NavigationBar.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
@@ -6,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './NavigationBar.css';
 
-function NavigationBar() {
+const NavigationBar: React.FC = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -14,7 +13,7 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={NavLink} to="/" exact>
+            <Nav.Link as={NavLink} to="/" end>
               Home
             </Nav.Link>
             <Nav.Link as={NavLink} to="/physician-list">
@@ -37,6 +36,6 @@ function NavigationBar() {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default NavigationBar;

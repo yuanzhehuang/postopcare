@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DepartmentList = () => (
+const DepartmentList: React.FC = () => (
   <div className="container department-list">
     <div className="row">
       <div className="col-md-6 department-item">

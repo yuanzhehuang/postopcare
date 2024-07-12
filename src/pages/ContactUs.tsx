@@ -2,7 +2,7 @@
 import React from 'react';
 import './ContactUs.css';
 
-const ContactUs = () => (
+const ContactUs: React.FC = () => (
   <div className="container contact-form">
     <h2>To work with our team and make material easily accessible to your patients, please contact us:</h2>
     <form>
@@ -27,7 +27,7 @@ const ContactUs = () => (
       </div>
       <div className="form-group">
         <label>What instructions would you like uploaded? <span className="required">(required)</span></label>
-        <textarea className="form-control" rows="5" placeholder="Instructions" required></textarea>
+        <textarea className="form-control" rows={5} placeholder="Instructions" required></textarea>
       </div>
       <button type="submit" className="btn btn-primary">Submit</button>
     </form>

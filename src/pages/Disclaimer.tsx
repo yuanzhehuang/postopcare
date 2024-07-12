@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Disclaimer = () => (
+const Disclaimer: React.FC = () => (
   <div className="container disclaimer-content">
     <h2>WEBSITE DISCLAIMER</h2>
     <p>

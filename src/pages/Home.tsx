@@ -1,8 +1,7 @@
-// src/pages/Home.js
 import React from 'react';
 import './Home.css';
 
-const Home = () => (
+const Home: React.FC = () => (
   <div>
     <div className="hero">
       <div className="hero-content">

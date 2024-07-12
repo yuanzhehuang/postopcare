@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PhysicianList = () => (
+const PhysicianList: React.FC = () => (
   <div className="container physician-list">
     <div className="row">
       <div className="col-12 search-bar">

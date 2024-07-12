@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-postopcareone-dev-bee86-authRole",
+      "UnauthRoleArn": "arn:aws:iam::844058392837:role/amplify-postopcareone-dev-bee86-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::844058392837:role/amplify-postopcareone-dev-bee86-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-postopcareone-dev-bee86-deployment",
+      "UnauthRoleName": "amplify-postopcareone-dev-bee86-unauthRole",
+      "StackName": "amplify-postopcareone-dev-bee86",
+      "StackId": "arn:aws:cloudformation:us-east-1:844058392837:stack/amplify-postopcareone-dev-bee86/d58363b0-34fe-11ef-b978-123ca08dc8f1",
+      "AmplifyAppId": "d3hc2iaz1rt2f9"
+    },
+    "categories": {
+      "auth": {
+        "postopcareonea67b9f55": {}
+      }
+    }
+  }
+}
